@@ -3,8 +3,6 @@ import { scrapeAntamGoldPrices, scrapeUbsGoldPrices } from './scraper';
 import { createGoldPrice, fetchHargaEmasOrg } from './service';
 import type { GoldBuyPrice, GoldPriceInput } from './@types.d';
 
-fetchHargaEmasOrg();
-
 async function main() {
     dotenv.config();
 
