@@ -31,6 +31,7 @@ async function main() {
 
     const input: GoldPriceInput = { buy, buyBack };
     await createGoldPrice(input);
+    console.log({ ubs, antam });
 }
 
 main().catch(console.error).finally(() => console.log('done'));

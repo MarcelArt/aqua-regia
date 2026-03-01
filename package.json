@@ -2,7 +2,8 @@
   "name": "aqua-regia",
   "private": true,
   "scripts": {
-    "start": "bun run index.ts"
+    "start": "bun run index.ts",
+    "push": "./build-and-push-image.sh"
   },
   "devDependencies": {
     "@types/bun": "latest"
